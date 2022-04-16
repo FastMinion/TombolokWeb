@@ -1,3 +1,16 @@
 body{
-    
+    max-width:50%; margin: 0 auto;
+    background-color: rgb(20, 20, 20);
+}
+
+nav{
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
+}
+
+i{
+    color: black;
+}
+
+i:hover{
+    color: #0F52BA;
 }
