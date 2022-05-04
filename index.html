@@ -5,65 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/dist/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
     <link rel="stylesheet" href="src/styles/styles.css">
     <title>Sapphire Racing</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="col-lg-12 mt-3">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse navbuttons" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                            <li class="nav-item">
-                                <button class="btn">
-                                    <a class="nav-link active" aria-current="page" href="index.html">
-                                        <i class="material-icons" style="font-size:36px;">home</i>
-                                    </a>
-                                </button>
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn">
-                                    <a class="nav-link" aria-current="page" href="news.html">
-                                        <i class="material-icons" style="font-size:36px;">newspaper</i>
-                                    </a>
-                                </button>
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn">
-                                    <a class="nav-link" aria-current="page" href="calendar.html">
-                                        <i class="material-icons" style="font-size:36px;">calendar_month</i>
-                                    </a>
-                                </button>
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn">
-                                    <a class="nav-link" aria-current="page" href="leagueinfo.html">
-                                        <i class="material-icons" style="font-size:36px;">info</i>
-                                    </a>
-                                </button>
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn">
-                                    <a class="nav-link" aria-current="page" href="login.html">
-                                        <i class="material-icons" style="font-size:36px;">login</i>
-                                    </a>
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    <div class="sidebar">
+      <div class="logo-content">
+        <div class="logo">
+          <div class="logo-name">Sapphire Racing</div>
         </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="#">
+            <i class="bx bx-home-alt"></i>
+            <span class="links-name">Home</span>
+          </a>
+          <span class="tooltip">Home</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-list-ul"></i>
+            <span class="links-name">Leagues</span>
+          </a>
+          <span class="tooltip">Leagues</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-news"></i>
+            <span class="links-name">News</span>
+          </a>
+          <span class="tooltip">News</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-info-circle"></i>
+            <span class="links-name">About us</span>
+          </a>
+          <span class="tooltip">About us</span>
+        </li>
+      </ul>
+      <div class="profile-content">
+        <div class="profile">
+          <div class="profile-details">
+            <img src="images/profile.png" alt="Profile">
+            <div class="name-status">
+              <div class="name">
+                Profile Example
+              </div>
+              <div class="status">
+                Season 1 Driver
+              </div>
+            </div>
+          </div>
+          <i class="bx bx-log-out" id="log-out"></i>
+        </div>
+      </div>
     </div>
-    <script src="src/dist/bootstrap/js/bootstrap.min.js"></script>
+    <div class="home-content">
+      <div class="text">Home content</div>
+    </div>
 </body>
 
 </html>
